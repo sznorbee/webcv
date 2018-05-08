@@ -88,3 +88,20 @@ footer
   color: white;
   }
 }
+
+@media only screen and (min-width: 768px)
+{
+  main{
+    display: flex;
+  }
+
+  section{
+    margin: 20px;
+  }
+  #me{
+    min-width: 280px;
+  }
+  #education{
+    min-width: 400px;
+  }
+}
