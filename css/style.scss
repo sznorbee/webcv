@@ -1,0 +1,90 @@
+$background: #f1f1f1;
+$iconcolor: #009688;
+$section-color: white;
+$progress-text-color: white;
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: $background;
+  margin: 0;
+}
+html,body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Roboto", sans-serif
+}
+header{
+  position: relative;
+}
+section{
+  width: 90%;
+  margin: 20px auto;
+  background-color: $section-color;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+article{
+  padding: 0 10px;
+}
+img{
+  width: 100%;
+}
+
+.text-on-image{
+  position: absolute;
+  bottom: 0px;
+  color: white;
+
+}
+h2{
+  margin-top: 0px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.margin-right{
+  margin-right: 20px;
+}
+.icon-style{
+  font-size: 18px;
+  color: $iconcolor;
+}
+
+.progress-bar{
+  background-color: $background;
+  border-radius: 16px;
+  line-height: 18px;
+}
+.progress{
+  font-size: 12px;
+  text-align: center;
+  color: $progress-text-color;
+  background-color: $iconcolor;
+  border-radius: 16px;
+}
+
+.large{
+  font-size: 25px;
+}
+
+footer
+{
+  background-color: $iconcolor;
+  text-align: center;
+  color: white;
+
+  h6, i{
+    margin: 0;
+    padding: 10px;
+  }
+
+  a
+  {
+    color: white;
+  }
+
+  i:hover
+  {
+  opacity: 0.5;
+  color: white;
+  }
+}
