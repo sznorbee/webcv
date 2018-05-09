@@ -20,6 +20,11 @@ article
 {
   p a:hover{
   opacity: 0.5;
+  background-color: #009688;
+  color: white;
+    i{
+      color: inherit;
+    }
   }
   p a {
     text-decoration: none;
@@ -110,6 +115,7 @@ footer
   }
   #me{
     min-width: 280px;
+    max-width: 300px;
   }
   #education{
     min-width: 400px;
