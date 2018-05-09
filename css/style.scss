@@ -16,6 +16,16 @@ html,body,h1,h2,h3,h4,h5,h6 {
 header{
   position: relative;
 }
+article
+{
+  p a:hover{
+  opacity: 0.5;
+  }
+  p a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
 section{
   width: 90%;
   margin: 20px auto;
