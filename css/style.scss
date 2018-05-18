@@ -16,6 +16,22 @@ html,body,h1,h2,h3,h4,h5,h6 {
 header{
   position: relative;
 }
+article
+{
+  p a:hover{
+  opacity: 0.5;
+  background-color: #009688;
+  color: white;
+    i{
+      color: inherit;
+    }
+  }
+
+  p a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
 section{
   width: 90%;
   margin: 20px auto;
@@ -100,6 +116,7 @@ footer
   }
   #me{
     min-width: 280px;
+    max-width: 300px;
   }
   #education{
     min-width: 400px;
