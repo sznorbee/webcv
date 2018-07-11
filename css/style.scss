@@ -10,6 +10,7 @@ body{
   background-color: $background;
   margin: 0;
 }
+
 html,body,h1,h2,h3,h4,h5,h6 {
   font-family: "Roboto", sans-serif
 }
@@ -109,6 +110,7 @@ footer
 {
   main{
     display: flex;
+    justify-content: center;
   }
 
   section{
